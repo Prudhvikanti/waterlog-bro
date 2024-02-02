@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773552B22B6D18220078C137 /* waterintake Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 773552B12B6D18220078C137 /* waterintake Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		773552B72B6D18220078C137 /* waterintakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773552B62B6D18220078C137 /* waterintakeApp.swift */; };
+		773552B92B6D18220078C137 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773552B82B6D18220078C137 /* ContentView.swift */; };
+		773552BB2B6D18230078C137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773552BA2B6D18230078C137 /* Assets.xcassets */; };
+		773552BE2B6D18230078C137 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773552BD2B6D18230078C137 /* Preview Assets.xcassets */; };
+		773552C82B6D18230078C137 /* waterintake_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773552C72B6D18230078C137 /* waterintake_Watch_AppTests.swift */; };
+		773552D22B6D18230078C137 /* waterintake_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773552D12B6D18230078C137 /* waterintake_Watch_AppUITests.swift */; };
+		773552D42B6D18230078C137 /* waterintake_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773552D32B6D18230078C137 /* waterintake_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773552B32B6D18220078C137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773552A52B6D18220078C137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773552B02B6D18220078C137;
+			remoteInfo = "waterintake Watch App";
+		};
+		773552C42B6D18230078C137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773552A52B6D18220078C137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773552B02B6D18220078C137;
+			remoteInfo = "waterintake Watch App";
+		};
+		773552CE2B6D18230078C137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773552A52B6D18220078C137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773552B02B6D18220078C137;
+			remoteInfo = "waterintake Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		773552DA2B6D18230078C137 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				773552B22B6D18220078C137 /* waterintake Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		773552AB2B6D18220078C137 /* waterintake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterintake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773552B12B6D18220078C137 /* waterintake Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waterintake Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773552B62B6D18220078C137 /* waterintakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterintakeApp.swift; sourceTree = "<group>"; };
+		773552B82B6D18220078C137 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		773552BA2B6D18230078C137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773552BD2B6D18230078C137 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		773552C32B6D18230078C137 /* waterintake Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterintake Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773552C72B6D18230078C137 /* waterintake_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterintake_Watch_AppTests.swift; sourceTree = "<group>"; };
+		773552CD2B6D18230078C137 /* waterintake Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterintake Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773552D12B6D18230078C137 /* waterintake_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterintake_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		773552D32B6D18230078C137 /* waterintake_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterintake_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773552AE2B6D18220078C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552C02B6D18230078C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552CA2B6D18230078C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773552A42B6D18220078C137 = {
+			isa = PBXGroup;
+			children = (
+				773552B52B6D18220078C137 /* waterintake Watch App */,
+				773552C62B6D18230078C137 /* waterintake Watch AppTests */,
+				773552D02B6D18230078C137 /* waterintake Watch AppUITests */,
+				773552AC2B6D18220078C137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		773552AC2B6D18220078C137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773552AB2B6D18220078C137 /* waterintake.app */,
+				773552B12B6D18220078C137 /* waterintake Watch App.app */,
+				773552C32B6D18230078C137 /* waterintake Watch AppTests.xctest */,
+				773552CD2B6D18230078C137 /* waterintake Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773552B52B6D18220078C137 /* waterintake Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				773552B62B6D18220078C137 /* waterintakeApp.swift */,
+				773552B82B6D18220078C137 /* ContentView.swift */,
+				773552BA2B6D18230078C137 /* Assets.xcassets */,
+				773552BC2B6D18230078C137 /* Preview Content */,
+			);
+			path = "waterintake Watch App";
+			sourceTree = "<group>";
+		};
+		773552BC2B6D18230078C137 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				773552BD2B6D18230078C137 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		773552C62B6D18230078C137 /* waterintake Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				773552C72B6D18230078C137 /* waterintake_Watch_AppTests.swift */,
+			);
+			path = "waterintake Watch AppTests";
+			sourceTree = "<group>";
+		};
+		773552D02B6D18230078C137 /* waterintake Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				773552D12B6D18230078C137 /* waterintake_Watch_AppUITests.swift */,
+				773552D32B6D18230078C137 /* waterintake_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "waterintake Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773552AA2B6D18220078C137 /* waterintake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773552DB2B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake" */;
+			buildPhases = (
+				773552A92B6D18220078C137 /* Resources */,
+				773552DA2B6D18230078C137 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773552B42B6D18220078C137 /* PBXTargetDependency */,
+			);
+			name = waterintake;
+			productName = waterintake;
+			productReference = 773552AB2B6D18220078C137 /* waterintake.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		773552B02B6D18220078C137 /* waterintake Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773552D72B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch App" */;
+			buildPhases = (
+				773552AD2B6D18220078C137 /* Sources */,
+				773552AE2B6D18220078C137 /* Frameworks */,
+				773552AF2B6D18220078C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "waterintake Watch App";
+			productName = "waterintake Watch App";
+			productReference = 773552B12B6D18220078C137 /* waterintake Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773552C22B6D18230078C137 /* waterintake Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773552DE2B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch AppTests" */;
+			buildPhases = (
+				773552BF2B6D18230078C137 /* Sources */,
+				773552C02B6D18230078C137 /* Frameworks */,
+				773552C12B6D18230078C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773552C52B6D18230078C137 /* PBXTargetDependency */,
+			);
+			name = "waterintake Watch AppTests";
+			productName = "waterintake Watch AppTests";
+			productReference = 773552C32B6D18230078C137 /* waterintake Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773552CC2B6D18230078C137 /* waterintake Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773552E12B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch AppUITests" */;
+			buildPhases = (
+				773552C92B6D18230078C137 /* Sources */,
+				773552CA2B6D18230078C137 /* Frameworks */,
+				773552CB2B6D18230078C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773552CF2B6D18230078C137 /* PBXTargetDependency */,
+			);
+			name = "waterintake Watch AppUITests";
+			productName = "waterintake Watch AppUITests";
+			productReference = 773552CD2B6D18230078C137 /* waterintake Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773552A52B6D18220078C137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					773552AA2B6D18220078C137 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					773552B02B6D18220078C137 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					773552C22B6D18230078C137 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 773552B02B6D18220078C137;
+					};
+					773552CC2B6D18230078C137 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 773552B02B6D18220078C137;
+					};
+				};
+			};
+			buildConfigurationList = 773552A82B6D18220078C137 /* Build configuration list for PBXProject "waterintake" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773552A42B6D18220078C137;
+			productRefGroup = 773552AC2B6D18220078C137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773552AA2B6D18220078C137 /* waterintake */,
+				773552B02B6D18220078C137 /* waterintake Watch App */,
+				773552C22B6D18230078C137 /* waterintake Watch AppTests */,
+				773552CC2B6D18230078C137 /* waterintake Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773552A92B6D18220078C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552AF2B6D18220078C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773552BE2B6D18230078C137 /* Preview Assets.xcassets in Resources */,
+				773552BB2B6D18230078C137 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552C12B6D18230078C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552CB2B6D18230078C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773552AD2B6D18220078C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773552B92B6D18220078C137 /* ContentView.swift in Sources */,
+				773552B72B6D18220078C137 /* waterintakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552BF2B6D18230078C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773552C82B6D18230078C137 /* waterintake_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773552C92B6D18230078C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773552D42B6D18230078C137 /* waterintake_Watch_AppUITestsLaunchTests.swift in Sources */,
+				773552D22B6D18230078C137 /* waterintake_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773552B42B6D18220078C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773552B02B6D18220078C137 /* waterintake Watch App */;
+			targetProxy = 773552B32B6D18220078C137 /* PBXContainerItemProxy */;
+		};
+		773552C52B6D18230078C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773552B02B6D18220078C137 /* waterintake Watch App */;
+			targetProxy = 773552C42B6D18230078C137 /* PBXContainerItemProxy */;
+		};
+		773552CF2B6D18230078C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773552B02B6D18220078C137 /* waterintake Watch App */;
+			targetProxy = 773552CE2B6D18230078C137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		773552D52B6D18230078C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		773552D62B6D18230078C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		773552D82B6D18230078C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterintake Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = waterintake;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prudhvi.team.waterintake.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		773552D92B6D18230078C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterintake Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = waterintake;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prudhvi.team.waterintake.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		773552DC2B6D18230078C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				INFOPLIST_KEY_CFBundleDisplayName = waterintake;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prudhvi.team.waterintake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773552DD2B6D18230078C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				INFOPLIST_KEY_CFBundleDisplayName = waterintake;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prudhvi.team.waterintake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773552DF2B6D18230078C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "prudhvi.team.waterintake-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterintake Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waterintake Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		773552E02B6D18230078C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "prudhvi.team.waterintake-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterintake Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/waterintake Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		773552E22B6D18230078C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "prudhvi.team.waterintake-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "waterintake Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		773552E32B6D18230078C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HKF9SUT6Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "prudhvi.team.waterintake-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "waterintake Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773552A82B6D18220078C137 /* Build configuration list for PBXProject "waterintake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773552D52B6D18230078C137 /* Debug */,
+				773552D62B6D18230078C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773552D72B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773552D82B6D18230078C137 /* Debug */,
+				773552D92B6D18230078C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773552DB2B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773552DC2B6D18230078C137 /* Debug */,
+				773552DD2B6D18230078C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773552DE2B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773552DF2B6D18230078C137 /* Debug */,
+				773552E02B6D18230078C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773552E12B6D18230078C137 /* Build configuration list for PBXNativeTarget "waterintake Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773552E22B6D18230078C137 /* Debug */,
+				773552E32B6D18230078C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773552A52B6D18220078C137 /* Project object */;
+}
